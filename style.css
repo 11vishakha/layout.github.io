@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    background:palegoldenrod;
+    height: 70px;
+}
+.logo{
+    height: 70px;
+    background-color: paleturquoise;
+    flex-basis: 20%;
+}
+.navbar{
+    height: 70px;
+    background-color: palevioletred;
+    flex-basis: 80%;
+}
+.container{
+    background-color: peru;
+    height: 420px;
+}
+.features{
+    background-color: powderblue;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.features article{
+    background-color: violet;
+    height: 230px;
+    flex-basis: 30%;
+    margin: 35px 6px;
+}
+.about{
+    background-color: thistle;
+    height: 300px;
+}
+.reviews{
+    background-color: plum;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+.reviews article{
+    background-color: cadetblue;
+    margin: 38px;
+    flex-basis: 30%;
+
+}
+.blogs{
+    background-color: tan;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+.blogs article{
+    background-color: steelblue;
+    flex-basis: 25%;
+    margin: 40px;
+}
+.contact{
+    background-color: azure;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact .left{
+    background-color: silver;
+    flex-grow: 1;
+}
+.right{
+    background-color: slategray;
+    flex-grow: 1;
+}
+footer{
+    background-color: rosybrown;
+    height: 100px;
+}
